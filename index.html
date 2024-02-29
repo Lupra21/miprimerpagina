@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="estilos.css">
+<!--Esto es el link para poder colocar el icono del corazon mas tarde-->
+    <script src="https://kit.fontawesome.com/9a9694b783.js" crossorigin="anonymous"></script>
+<!--Colocamos dentro de head la fuente de google-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+<script src="script1.js" defer ></script>
+</head>
+<body>
+    <div class="contenedor">
+     <header>
+        <!--Colocamos el link html que es el que estamos trabajando y el link html del corazon-->
+        <a href="index.html"><i class="fa-solid fa-heart"></i></a>
+        <header id="encabezado">
+            <h1 class="logo">
+            </h1>
+            <label for="check" class="checkbtn">
+              <i class="fa-solid fa-bars"></i>
+            </label>
+            <nav class="navbar">
+              <ul class="menu">
+                <li><a class="navli" href="index.html">Inicio</a></li>
+                <li><a class="navli" href="#seccion-principal">Acerca de mí</a></li>
+                <li><a class="navli" href="#trabajos">Trabajos</a></li>
+                <li><a class="navli" href="#trabajos">Servicios</a></li>
+                <li><a class="navli" href="#contacto">Contacto</a></li>
+              </ul>
+            </nav>
+          </header>
+    </header>
+        <main id="seccion-principal">
+            <section class="seccion-1">
+                <div class="Acerca-de">
+                    <h2>Acerca de mi</h2>
+                    <p class="parrafo1">
+                      Bienvenido a mi primer pagina web. Aquí aprenderas más sobre mi.
+                    </p>
+                    </p class="parrafo2">
+                        Mi nombre es Lucia, soy de Montevideo, Uruguay y soy hincha de Defesnor.
+                        Tengo 2 hermanos y una perrita llamada Violeta que es lo mejor que me pasó en la vida.
+                        Me gusta dormir, ver futbol y tomar mate.
+                    </p>
+                </div>
+                <div class="Acerca-imagen">
+                    <img src="yo.jpg" alt="">
+                </div> 
+            </section>
+
+</main>
+           
+<main class="seccion-tarjetas">
+    <h2>Cosas que me gustan</h2>
+    <div class="contenedor-tarjetas">
+        <section class="tarjeta">
+            <img src="luzu.jpg" alt="Luzu Tv" class="imagen-chica">
+            <div class="contenido">
+                <h3>Luzu TV</h3>
+                <p>Luzu TV es una empresa de streaming que consumo todos los días. 
+                    Está conformado por distintos programas que dan al correr del día.
+                    Es una empresa creada por Nicolas Occhiato en el 2020 debido a la gran pandemia.
+                </p>
+            </div>
+        </section>
+
+        <section class="tarjeta">
+            <img src="pedre.jpg"  alt="" class="imagen-chica">
+                        
+            <div class="contenido">
+                <h3>Atardeceres</h3>
+                <p>Nada más lindo que ver el cielo.
+                    Este es un amanecer en La Pedrera, Rocha, Uruguay.
+                </p>
+            </div>
+        </section>
+      <section class="tarjeta">
+        <img src="viole1.jpg" alt="" class="imagen-chica">
+        <div class="contenido">
+            <h3> Violeta </h3>
+            <p>Ella es Violeta, mi perrita que le encanta dormir y comer.</p>
+        </div>
+          </section>
+        <section class="tarjeta">
+             <img src="dsc.jpeg" alt="" class="imagen-chica">
+        <div class="contenido">
+        <h3>Estadio Luis Franzini</h3>
+        <p>Esta es la cancha de Defensor. Tiene sin dudas, los mejores atardeceres</p>
+        </div>
+        </section>
+
+</div>
+</main>
+
+ <!--Arranca el formulario nuevo que va debajo de las imagenes-->
+ <footer class="form-header">
+    <h1>Contacto</h1>
+    <p><em>¡Esperamos tu consulta!</em></p>
+  
+    <form action="" method="get" class="formulario" id="form">
+        <div class="form-row">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="text" />
+        </div>
+        <div class="form-row">
+            <label for="email">Email</label>
+            <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="pepe@gmail.com"
+                required
+            />
+        </div>
+        <div class="form-row">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+        </div>
+        <div class="form-row">
+            <button type="submit" id="submit">Enviar</button>
+        </div>  
+        <p class="alertas" id="alertas"></p>    
+    </form>
+</footer>
+
+<footer>
+    <h3>Redes sociales</h3>
+    <ul>
+        <li>Contacto:
+            <ol>
+                lulyprada1@gmail.com
+            </ol>
+        </li>
+        <li>Instagram:
+            <ol>
+                luuuprada
+            </ol>
+        </li>
+        <li>Whatsapp:
+            <ol>
+                (+598)098483702
+            </ol>
+        </li>
+        <li>Tiktok:
+            <ol>
+                -
+            </ol>
+        </li>
+    </ul>
+</footer>
+
+           
+        </section>
+    
+    
+    </div>
+    
+</body>
+</html>
