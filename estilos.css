@@ -21,7 +21,9 @@ header{
     padding: 5px;
     margin: 10px;
 }
-
+.greeting {
+  color: violet;
+}
 h5{
     color: aliceblue;
     background-color: rgb(130, 206, 238);
